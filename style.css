@@ -1,0 +1,31 @@
+body {
+    background-color: #3893aa;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #005;
+}
+
+img {
+    border-radius: 5px;
+    width: 40%;
+}
+
+#main {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: #FFF;
+}
