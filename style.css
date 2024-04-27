@@ -24,8 +24,26 @@ img {
 
 #main {
     width: 1200px;
-    height: 100vh;
+    min-height: 500px;
     margin: 0 auto;
     padding: 10px 25px;
     background-color: #FFF;
+}
+
+ul.recipe-list {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-list li {
+    list-style: none;
+    padding: 10px 15px;
+    background-color: rgb(108, 145, 189);
+    margin: 0px 0px 10px 0px;
+    width: 200px;
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
 }
