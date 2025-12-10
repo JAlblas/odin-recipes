@@ -1,6 +1,12 @@
+html,
 body {
-    background-color: #3893aa;
-    font-family: Tahoma, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #3893aa;
+  font-family: Tahoma, Helvetica, sans-serif;
+  padding: 0;
 }
 
 h1,
@@ -9,41 +15,55 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: #005;
+  text-decoration: none;
+  color: #005;
 }
 
 img {
-    border-radius: 5px;
-    width: 40%;
+  border-radius: 5px;
+  width: 40%;
+}
+
+div#content {
+  display: flex;
+  min-height: 100%;
+  padding: 5px;
+}
+
+aside {
+  width: 20%;
 }
 
 #main {
-    width: 1200px;
-    min-height: 500px;
-    margin: 0 auto;
-    padding: 10px 25px;
-    background-color: #FFF;
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: #fff;
 }
 
 ul.recipe-list {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .recipe-list li {
-    list-style: none;
-    padding: 10px 15px;
-    background-color: rgb(108, 145, 189);
-    margin: 0px 0px 10px 0px;
-    width: 200px;
-    color: #FFF;
+  list-style: none;
+  padding: 10px 15px;
+  background-color: rgb(108, 145, 189);
+  margin: 0px 0px 10px 0px;
+  width: 200px;
+  color: #fff;
 }
 
 a:visited {
-    color: #FFF;
+  color: #fff;
 }
